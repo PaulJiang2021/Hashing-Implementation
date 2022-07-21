@@ -105,5 +105,5 @@ Query time for brute-force approach: 587.7598114013672, per query: 2.93879905700
 Expected Total time to compute pairwise similarity for all the entire urllist will take 587.7s / 200 * 200000 (size of the subset I used) = 
 163.25 hours. It is much larger than the query time for our minHash Table.
 
-# COnclusion
+# Conclusion
 For large amount of data, the query time for the brute force approach is much longer than the time it takes to find similar set from MinHashtable, and as we manipulate K and L we can find an ideal balance between the runtime and the accuracy of the similar set commpared to the query set.
